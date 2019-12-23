@@ -1,18 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style type="text/css">
+#h1{width:10%;height:100%;float:left;border:1px;}
+#h2{width:90%;height:100%;float :left}
+</style>
 </head>
-<body>
-<div>
-<input type="button" onclick="window.location.href='goupiao.jsp'"value="查询购票">
-<input type="button" onclick="window.location.href='dingdanguanli.jsp'"value="订票管理">
-</div>
-<div  align="center">
-<iframe src="login.html">
+<body style="height:100%;width:1000px ">
+<div id ="h1">
+<ul>
+<li><input type="button" value="查询购买" name="chaxun"></li>
 
+<li><input type="button" value="订单管理" name="dingdan"></li>
+</ul>
+</div >
+
+<div id ="h2">
+<iframe src="chaxun.html"style="height:100%;width:100%">
 </iframe>
-</div>
+</div >
+
+
 </body>
 </html>
